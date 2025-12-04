@@ -34,33 +34,20 @@ FAKE
 
 confidence score (0 to 1)
 
-project_root/
-│
-├── backend/
-│   ├── app.py
-│   ├── model.py
-│   ├── utils_ocr.py       (optional)
-│   ├── utils_embedding.py (optional)
-│   └── models/
-│       └── best_model.pth
-│
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── requirements.txt
-└── README.md
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/Fake-Receipt-Detection.git
 cd Fake-Receipt-Detection
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 4️⃣ Run the Backend
 cd backend
 uvicorn app:app --reload
