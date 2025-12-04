@@ -34,7 +34,6 @@ FAKE
 
 confidence score (0 to 1)
 
-🏗 Project Structure
 project_root/
 │
 ├── backend/
@@ -52,6 +51,7 @@ project_root/
 │
 ├── requirements.txt
 └── README.md
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/Fake-Receipt-Detection.git
