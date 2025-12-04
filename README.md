@@ -84,3 +84,12 @@ Returns JSON:
   "prediction": "REAL",
   "confidence": 0.9444
 }
+
+📸 UI Preview
+Clean, responsive layout
+
+Drag‑and‑drop zone
+
+Instant image preview
+
+Smooth animations and results display
