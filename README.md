@@ -58,6 +58,7 @@ Backend runs at:
 Just double‑click:
 
 frontend/index.html
+
 🎯 How It Works
 User uploads a receipt image
 
