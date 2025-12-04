@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Authenticity Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🧾 Receipt Authenticity Checker</h1>
+        <p class="subtitle">Upload or drag a receipt image to verify if it is <b>Real</b> or <b>Fake</b>.</p>
+
+        <!-- Upload Box -->
+        <div id="drop-area">
+            <p>Drag & Drop your receipt here</p>
+            <span>OR</span>
+            <input type="file" id="fileElem" accept="image/*">
+            <button id="uploadBtn">Choose File</button>
+        </div>
+
+        <!-- Preview -->
+        <div id="preview-container" class="hidden">
+            <h3>Uploaded Image</h3>
+            <img id="preview" src="" alt="Preview">
+        </div>
+
+        <button id="predictBtn" class="hidden">Predict</button>
+
+        <!-- Result -->
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
